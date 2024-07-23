@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "es5",                // Der Ziel-JavaScript-Standard
+      "lib": ["es2015", "dom"],       // Bibliotheken, die eingebunden werden sollen
+      "module": "commonjs",           // Modulstandard
+      "strict": true,                 // Aktiviert alle strengen Typüberprüfungen
+      "esModuleInterop": true,        // Ermöglicht den Import von CommonJS-Modulen
+      "skipLibCheck": true,           // Überspringt die Überprüfung von Typdefinitionen in `node_modules`
+      "forceConsistentCasingInFileNames": true // Erzwingt konsistente Groß-/Kleinschreibung bei Dateinamen
+    }
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="ice.js" defer></script>
+    <script src="status.js" defer></script>
+    <title>Eisdiele</title>
+</head>
+<body>
+    <h2>Eisdiele</h2>
+    <button onclick="window.location.href='outdoor.html';">out</button>
+    
+    
+    <div class="ingredients-div">
+        <span class="span1" onclick="spanClick('iceCream', 'vanilla')">Vanilla</span>
+        <span class="span2" onclick="spanClick('iceCream', 'chocolate')">Chocolate</span>
+        <span class="span3" onclick="spanClick('iceCream', 'strawberry')">Strawberry</span>
+        <span class="span4" onclick="spanClick('syrup', 'chocolate')">Chocolate Syrup</span>
+        <span class="span5" onclick="spanClick('syrup', 'caramel')">Caramel Syrup</span>
+        <span class="span6" onclick="spanClick('syrup', 'strawberry')">Strawberry Syrup</span>
+        <span class="span7" onclick="spanClick('topping', 'sprinkles')">Sprinkles</span>
+        <span class="span8" onclick="spanClick('topping', 'nuts')">Nuts</span>
+        <span class="span9" onclick="spanClick('topping', 'chocolate')">Chocolate Chips</span>
+    </div>
+
+    
+    <div class="ice-div" id="iceCreamContainer">
+        
+    </div>
+    <button onclick="updateStatusFromIce()">Update Status</button>
+</body>
+</html>
